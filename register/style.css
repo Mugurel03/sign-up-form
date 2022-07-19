@@ -110,3 +110,6 @@ footer p a:hover {
   background-color: white;
 }
 
+#country:hover {
+    border-color: #4995fa;
+}
