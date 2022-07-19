@@ -19,6 +19,7 @@ body {
 
 .log-in {
   width: 50vh;
+  border-radius: 15px;
   box-shadow: 0 0 4px 0 var(--form-color);
   background-color: var(--form-color);
   padding: 6vh;
@@ -74,31 +75,26 @@ a {
   cursor: pointer;
 }
 
-
 input:hover {
-    border-color:#4995fa;
+  border-color: #4995fa;
 }
 
 button:hover {
-    color: #4995fa;
-    background-color: white;
+  color: #4995fa;
+  background-color: white;
 }
 
 a:hover {
-    color: #3b3ecc;
+  color: #3b3ecc;
 }
 
 footer p {
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer p a:hover {
-    color: #4995fa;
+  color: #4995fa;
 }
-
-
-
