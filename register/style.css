@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+:root {
+  --background-color: #304664;
+  --text-color: #4995fa;
+  --form-color: rgb(255, 255, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Open Sans", sans-serif;
+}
+
+.register{
+  width: 50vh;
+  border-radius: 15px;
+  box-shadow: 0 0 4px 0 var(--form-color);
+  background-color: var(--form-color);
+  padding: 6vh;
+  margin: 2% auto 0   ;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+h1 {
+  text-align: center;
+  padding: 12px;
+  font-size: 1.75em;
+}
+
+label {
+  font-size: 1em;
+}
+
+input {
+  border-radius: 20px;
+  padding: 10px;
+  width: 45vh;
+  margin: 10px 0;
+  border: 2px solid #999;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  color: white;
+  width: 48vh;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: 1px solid #999;
+  background-color: #4995fa;
+  cursor: pointer;
+}
+
+p {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
+
+input:hover {
+  border-color: #4995fa;
+}
+
+button:hover {
+  color: #4995fa;
+  background-color: white;
+}
+
+a:hover {
+  color: #3b3ecc;
+}
+
+footer p {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p a:hover {
+  color: #4995fa;
+}
+
+
+#country {
+    border-radius: 20px;
+  padding: 10px;
+  width: 49vh;
+  margin: 10px 0;
+  border: 2px solid #999;
+  outline: none;
+  background-color: white;
+}
+
